@@ -22,3 +22,13 @@ print("Code: " + str(response.status_code) + " Body: " + response.text)
 
 response = requests.post('http://localhost:8088/json-data-to-json', json= {'username': 'Touhid', 'password': '123456'})
 print("Code: " + str(response.status_code) + " Body: " + response.text)
+
+
+response = requests.post('http://localhost:8088/thread-ex1')
+print("Code: " + str(response.status_code) + " Body: " + response.text)
+
+response = requests.post('http://localhost:8088/thread-ex1')
+print("Code: " + str(response.status_code) + " Body: " + response.text)
+
+response = requests.post('http://localhost:8088/thread-ex1')
+print("Code: " + str(response.status_code) + " Body: " + response.text)
